@@ -20,7 +20,7 @@ require("dotenv").config(); // get .env file contents
           },
         ],
         details: process.env.details,
-        largeImageKey: "rpc_icon",
+        //largeImageKey: "rpcIcon",
         largeImageText: process.env.imageAltTxet,
       })
       .catch((err) => console.log(err));
